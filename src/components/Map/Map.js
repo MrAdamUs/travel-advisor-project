@@ -22,7 +22,7 @@ const Map = () => {
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAP_API_KEY }}
         defaultCenter={defaultProps.center}
-        // center={coordinates}
+        center={defaultProps.cente}
         defaultZoom={defaultProps.zoom}
         margin={[50, 50, 50, 50]}
         options={''}
